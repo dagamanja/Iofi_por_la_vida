@@ -1,0 +1,41 @@
+:root{
+    /* Font */
+    --color_font_1: #F7F7F7;
+    --font_size: 20px;
+    --font_weight: 500;
+    /* Background */
+    --background_color_1: #4C4C4C;
+    --background_color_2: #393939;
+}
+
+body{
+    background-color: var(--background_color );
+    font-family: "Inter", sans-serif;
+    height: 220px;
+}
+
+.links{
+    background-color: var(--background_color_2);
+    height: 120px;
+    display: flex;
+}
+
+.links img{
+    height: 50px;
+}
+
+footer{
+    background-color: var(--background_color );
+    display: flex;
+}
+
+.imgs{
+    display: flex;
+    gap: 16px;
+    margin-left: 24px;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+}

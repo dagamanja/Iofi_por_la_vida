@@ -1,0 +1,64 @@
+:root{
+    /* Font */
+    --blue_navbar: #2CA4B0;
+    --blue_navbar_selected: #6AC7E3;
+    --color_font: #F7F7F7;
+    --color_font_selected: #393939;
+    --button_font_size: 24px;
+    /* Background */
+    --background_color: #F7F7F7;
+    /* Navbar propierties */
+    --navbar_heiht: 60px;
+}
+
+body{
+    /* background-color: var(--background_color );s */
+    font-family: "Inter", sans-serif;
+}
+
+.logo{
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--background_color);
+}
+
+.logo img{
+    height: var(--navbar_heiht);
+    background-color: var(--background_color);
+}
+
+.logo_iofi{
+    padding-left: 16px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    padding: 0;
+    /* background-color: var(--background_color); */
+}
+
+.button{
+    margin: 0px;
+    height: var(--navbar_heiht);
+    padding: 8px 16px 8px 16px;
+    background-color: var(--blue_navbar);
+    opacity: 0.9;
+    color: var(--color_font);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: var(--button_font_size);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--blue_navbar_selected);
+    color: var(--color_font_selected);
+}
+
+

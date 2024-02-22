@@ -1,0 +1,99 @@
+/* Reset CSS básico */
+
+/* Box sizing border-box por defecto para todos los elementos */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Reset de márgenes y rellenos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Lista sin estilos y sin sangría */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Asegurar que las imágenes se ajusten correctamente */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Normalizar estilos de encabezados */
+/* h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+} */
+
+h1{
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+p{
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+
+/* Normalizar estilos de texto */
+body {
+  line-height: 1.6;
+  font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+}
+
+/* Eliminar subrayado de enlaces */
+a {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del texto */
+}
+
+/* Establecer bordes a 0 */
+button, input, select, textarea {
+  border: 0;
+}
+
+/* Hacer que los elementos flexibles se comporten de manera estándar */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Asegurar que los elementos de formulario se muestren de manera consistente en todos los navegadores */
+input, select, textarea {
+  font: inherit;
+}
+
+/* Evitar que los elementos de formulario reciban estilos de usuario */
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Evitar que los elementos de formulario afecten el diseño del contenedor si no se establece explícitamente */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* Restablecer el estilo de botón predeterminado */
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Restablecer el estilo predeterminado de elementos enfocables */
+button:focus, input:focus, select:focus, textarea:focus {
+  outline: none;
+}
